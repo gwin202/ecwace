@@ -1,0 +1,174 @@
+/*@media (min-width: 992px) {
+	.modal-xl {
+		width: 90%
+		max-width: 1200px;
+	}
+}*/
+.gpa {
+	background: #eef;
+	padding: 10px;
+	border-left:solid 3px #31708f;
+	color: #31708f;
+}
+.alert {
+	padding: 2px;
+	margin: 5px;
+}
+.certification {
+	margin-top: 15px;
+	font-size: 16px;
+}
+.border-top {
+	border-top: 2px solid #000;
+	margin-top: 30px;
+	padding: 10px;
+}
+.table {
+  
+  transition: all 3s ease-in-out;
+ 
+}
+.reg-site-map {
+	background:#eee;
+	padding: 3px 0px;
+	border-radius: 4px;
+	margin-bottom: 10px;
+}
+
+.list-overflow {
+	height: 350px;
+	overflow: scroll;
+}
+.login-body-background {
+	background: rgba(200,200,200, .9);
+}
+label {
+	font-family: cambria;
+	font-weight: bold;
+	font-size: 18px;
+}
+.logo-background {
+	border: solid 1px blue;
+	margin-top: 5%;
+	padding: 0px;
+	min-height: 490px;
+	background-image: url(../images/zibeh-logo.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	box-shadow: 3px 4px 2px #fff;
+}
+.all {
+	background: url(../images/bg-overlay.png) rgba(22,33,88, .8);
+	width: 100%;
+	padding: 0px 0px 15px 0px;
+	color:white;
+	font-family: poppins;
+	font-size: 30px;
+	
+}
+.all h1 {
+	padding-top: 25px;
+	margin-top: 0px;
+}
+.modal-header div {
+	background: url(../images/bg-overlay.png) rgba(22,33,88, .8);
+	color:white;
+	font-family: poppins;
+	padding: 10px;
+	text-align: center;
+	font-size: 24px;
+	border-radius: 5px;
+}
+.site-map {
+	background: url(../images/bg-overlay.png) rgba(22,33,88, .8);
+	color:white;
+	font-family: poppins;
+	padding: 3px;
+	border-radius: 5px;
+}
+
+.feedback {
+	clear: both;
+}
+.panel-body, .modal-body {
+	border-top: inset 1px #23c;
+}
+.site-name {
+	margin-top: 0%;
+	padding: 30px 0px 10px 0px;
+	color:white;
+	font-family: poppins;
+	font-size: 30px;
+}
+.no-margin {
+	margin:0px;
+}
+.overlay{
+	box-shadow: -3px -3px 2px #fff;
+	background: url(../images/bg-overlay.png) rgba(22,33,88, .8);
+	min-height: 490px;
+}
+.overlay hr {
+	height: 5px;
+}
+.form-border {
+	border: solid 1px #eee;
+	width: 80%;
+	margin: 0px auto;
+	margin-top: 5px;
+}
+.welcome-text {
+	margin-top: 5px;
+	margin-bottom: 1px;
+	color: #fff;
+	padding: 0px;
+}
+.login {
+	margin-top: 6%;
+	color:white;
+}
+#btn-login {
+	box-shadow: 2px 1px 2px #aaa;
+	background: #556;
+	opacity: .8;
+	margin-top: 0px;
+	font-family: cambria;
+	font-size: 17px;
+	font-weight: bold;
+}
+.input-transparent{
+	background: none;
+	color: white;
+	font-family: cambria;
+	font-size: 18px;
+}
+.lock {
+	
+}
+.footer {
+	margin-top: 30px;
+}
+.footer a {
+	text-shadow: 0px 0px 1px #ddd;
+	color: #cce;
+}
+@media print
+   {	
+   		.header, .footer, .nav, .content-heading, .btn-print, .panel-heading, .no-print { display: none !important; } 
+      .printable {
+      	display: block;
+      	overflow: visible;
+      	height: auto;
+      	}
+
+      a[href]:after {
+	    content: none !important;
+	  }
+
+	  td {
+			font-size: 16px;
+		}
+		td button {
+			font-size: 16px;
+		}
+   }
